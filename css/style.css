@@ -312,9 +312,18 @@
       color: #0A0D11;
   }
   
+  .main__center_two_block_right {
+      position: absolute;
+      right: 0;
+  }
+  
+  .main__center_two_block_right img {
+      opacity: 40%;
+  }
+  
   .main__center_two_block {
       display: flex;
-      flex-direction: row-reverse;
+      position: relative;
       justify-content: space-between;
       margin-top: 56px;
       width: 1496px;
@@ -327,6 +336,11 @@
       flex-direction: column;
       text-align: center;
       justify-content: center;
+      margin-left: 50px;
+  }
+  
+  #custom__text {
+      font-weight: 600;
   }
   
   .main__center_two_block_download_block_title {
@@ -361,7 +375,6 @@
   .main__center_two_block_download_block_button {
       background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
       border-radius: 5px;
-      display: flex;
       justify-content: center;
       align-items: center;
   }
@@ -377,4 +390,50 @@
       justify-content: center;
       text-align: center;
       color: #fff;
+      margin-top: 165px;
+  }
+  
+  .footer__block {
+      margin-top: 165px;
+  }
+  
+  .footer__block_title {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 179%;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+      background-clip: text;
+      margin-bottom: 7px;
+  }
+  
+  .footer__block_subtitle {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 278%;
+      text-align: center;
+      letter-spacing: 0.285em;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 24px;
+  }
+  
+  .footer__block_icon_social_network {
+      margin-bottom: 120px;
+  }
+  
+  .footer__block_icon_social_network img {
+      margin-right: 32px;
+  }
+  
+  .footer__block_icon_social_network img:last-child {
+      margin-right: 0px;
   }
