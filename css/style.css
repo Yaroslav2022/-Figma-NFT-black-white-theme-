@@ -53,7 +53,7 @@
       }
       
       .header__logo {
-          background-image: url(/img/Logo1.svg);
+          background-image: url(../img/Logo1.svg);
           width: 163px;
           height: 44px;
           display: flex;
@@ -95,7 +95,7 @@
       
       .theme_icons {
           display: inline-block;
-          background-image: url(/img/Sun.svg);
+          background-image: url(../img/Sun.svg);
           width: 29px;
           margin-bottom: 5px;
           height: 29px;
@@ -186,7 +186,7 @@
       
       .main__top_left_title_button_left::after {
           content: " ";
-          background: url(/img/Icons.png) 3px 13px no-repeat;
+          background: url(../img/Icons.png) 3px 13px no-repeat;
           width: 22px;
           height: 30px;
           display: inline-block;
@@ -228,7 +228,7 @@
       }
       
       .main__top_right_BIG_IMAGE {
-          background-image: url(/img/BIG_IMAGE.png);
+          background-image: url(../img/BIG_IMAGE.png);
           width: 856px;
           background-repeat: no-repeat;
           height: 701px;

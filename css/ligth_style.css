@@ -55,7 +55,7 @@ html {
 }
 
 .header__logo {
-    background-image: url(/img/light_theme/Logo.svg);
+    background-image: url(../img/light_theme/Logo.svg);
     width: 163px;
     height: 45px;
     display: flex;
@@ -93,7 +93,7 @@ html {
 
 .theme_icons {
     display: inline-block;
-    background-image: url(/img/light_theme/moon.svg);
+    background-image: url(../img/light_theme/moon.svg);
     width: 29px;
     margin-bottom: 5px;
     height: 29px;
@@ -186,7 +186,7 @@ html {
 
 .main__top_left_title_button_left::after {
     content: " ";
-    background: url(/img/Icons.png) 3px 13px no-repeat;
+    background: url(../img/Icons.png) 3px 13px no-repeat;
     width: 22px;
     height: 30px;
     display: inline-block;
@@ -231,7 +231,7 @@ html {
 .main__top_right_BIG_IMAGE {
     width: 856px;
     height: 701px;
-    background-image: url(/img/light_theme/BIG_IMAGE_LIGHT.png);
+    background-image: url(../img/light_theme/BIG_IMAGE_LIGHT.png);
     background-repeat: no-repeat;
 }
 
