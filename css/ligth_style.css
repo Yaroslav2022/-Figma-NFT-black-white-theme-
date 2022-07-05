@@ -304,11 +304,12 @@ html {
 .main__gallery_bottom {
     display: flex;
     margin-top: 32px;
+    justify-content: space-between;
 }
 
 .main__gallery_bottom img {
     margin-right: 60px;
-    max-width: 350px;
+    max-width: 300px;
     opacity: 100%;
 }
 
